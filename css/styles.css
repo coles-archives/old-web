@@ -1,0 +1,35 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #353535;
+  color: white;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #BFBFBF;
+}
+
+a {
+  text-decoration: none;
+  color: #BFBFBF;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* nav */
+#nav { height: 32px; }
+#nav .left { float: left; padding-top: 6px; }
+#nav .right { float: right; }
+#nav .current { background: white; color: grey; }
+#nav button {  padding: 5px; background: grey; border-radius: 3px; color: white; border: 0; transition: background 0.25s; cursor: pointer; font-family: 'Lato', sans-serif;}
+@media (max-width:650px) { #nav .left { width: 0% !important; display: none !important; } #nav .right { width: 100% !important; float: none !important; } }
