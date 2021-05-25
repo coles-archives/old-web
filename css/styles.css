@@ -5,24 +5,17 @@
 body {
   background-color: #353535;
   color: white;
-}
-
-h1 {
   font-family: "Open Sans", sans-serif;
-}
-
-h2 {
-  font-family: "Lato", sans-serif;
 }
 
 h3 {
   font-family: "Open Sans", sans-serif;
-  color: #BFBFBF;
+  color: #bfbfbf;
 }
 
 a {
   text-decoration: none;
-  color: #BFBFBF;
+  color:  #eeeded;
   font-family: "Open Sans", sans-serif;
 }
 
